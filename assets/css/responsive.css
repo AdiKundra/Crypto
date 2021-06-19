@@ -1,0 +1,484 @@
+@media (min-width: 320px) and (max-width: 480px) { 
+	/*Global Css*/
+	.section_heading h1{
+		font-size: 36px;
+	}
+	.section_heading p{
+		width: 100%;
+	}
+	.main-logo{
+		width: 20% !important;
+	}
+	/*Navigation Bar*/
+	.top-nav ul li {
+        padding: 10px 12px;
+    }
+    .top-nav a {
+	    font-size: 12px;
+	}
+	/*Banner Css*/
+	.banner_section {
+		padding-top: 60px;
+	}
+	.banner-text h1{
+		font-size: 36px;
+		line-height: 1.5;
+	}
+	.banner-img{
+		order: 1;
+		padding-bottom: 50px;
+	} 
+	.banner-text{
+		order: 2;
+	}
+	.banner-btn{
+		text-align: center;
+	}
+	.watch-video{
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	/*Home Page Card*/
+	/*Alternative Section*/
+	.section_2_img{
+		order: 1;
+	}
+	.section_2_text{
+		order: 2;
+	}
+	.rocket,.planet,.whoop{
+		display: none;
+	}
+	/*Home Chart Section*/
+	.pie-data {
+	    padding-left: 40px;
+	}
+	/*Home Parallax Section*/
+	.parallax_section .card img{
+		width: 25%;
+	}
+	.parallax_section .card{
+		margin: 20px 0px;
+	}
+	/*Footer*/
+	.footer_link{
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		justify-content: start;
+	} 
+	.newsletter_head{
+		padding-top:10px ;
+	} 
+	.newsletter_input{
+		padding-top:10px ;
+	} 
+	/*About Page Timeline */
+	.timeline-img {
+		left: 15px;
+	}
+	.timeline::before {
+		left: 15px;
+		top: 5%;
+		height: 97%;
+	}
+	.timeline-text{
+		padding:10px 25px ;
+	}
+	.timeline-section-circle{
+		top: 98%;
+	}
+	.timeline .timeline-item:nth-child(odd) .timeline-content::after {
+		left: 0%;
+		width: 100%;
+	}
+	.timeline .timeline-item:nth-child(even) .timeline-content::after {
+		right: 0%;
+		width: 97%;
+	}
+	.timeline-item:nth-child(odd) .timeline-section-circle {
+	    left: 0% !important;
+	}
+	.timeline-item:nth-child(even) .timeline-section-circle {
+	    right: 0% !important;
+	}
+	.bottom_ball{
+		margin-top: 50px;
+	}
+	/*About Page Text*/
+	.about_heading h3{
+        font-size: 36px;
+    }
+	.about_section h1{
+		font-size: 36px;
+	}
+	/*Service Page*/
+	.hold_cardhead {
+		font-size: 36px;
+		line-height: 1.5;
+	}
+	/*Contact*/
+	.form-wrapper{
+		padding-bottom: 50px;
+	}
+	.form-container .form-wrapper .form-box{
+		width: 100%;
+	}
+	/*faq Page*/
+	.faq_img{
+		order: 2;
+		text-align: center;
+	}
+	.faq_section{
+		order: 1;
+	}
+
+}
+
+@media (min-width: 481px) and (max-width: 637px) { 
+	/*Global Css*/
+	.section_heading h1{
+		font-size: 36px;
+	}
+	.section_heading p{
+		width: 100%;
+	}
+	.main-logo{
+		width: 20% !important;
+	}
+	/*Navigation Bar*/
+	.top-nav ul li {
+        padding: 10px 18px;
+    }
+    .top-nav ul li:first-child {
+        padding-left: 0;
+    }
+	/*Banner Section*/
+	.banner_section {
+		padding-top: 60px;
+	}
+	.banner-text h1{
+		font-size: 36px;
+		line-height: 1.5;
+	}
+	.banner-img{
+		order: 1;
+		padding-bottom: 50px;
+	} 
+	.banner-text{
+		order: 2;
+	}
+	.banner-btn{
+		text-align: center;
+	} 
+	/*Home Card Section*/
+	/*Alternative Section Home*/
+	.section_2_img{
+		order: 1;
+		text-align: center;
+	}
+	.section_2_text{
+		order: 2;
+	}
+	.rocket,.planet,.whoop{
+		display: none;
+	}
+	/*Chart Home*/
+	.pie-data{
+		padding-left: 40px;
+	}
+	/*Parallax Section Home*/
+	.parallax_section .card img{
+		width: 25%;
+	}
+	.parallax_section .card{
+		margin: 20px 0px;
+	}
+	/*About Page Text*/
+	.about_heading h3{
+        font-size: 36px;
+    }
+	.about_section h1{
+		font-size: 36px;
+	}
+
+	/*About Page Timeline */
+	.timeline-img {
+		left: 15px;
+	}
+	.timeline::before {
+		left: 15px;
+		top: 5%;
+		height: 97%;
+	}
+	.timeline-text{
+		padding:10px 25px ;
+	}
+	.timeline-section-circle{
+		top: 98%;
+	}
+	.timeline .timeline-item:nth-child(odd) .timeline-content::after {
+		left: 0%;
+		width: 100%;
+	}
+	.timeline .timeline-item:nth-child(even) .timeline-content::after {
+		right: 0%;
+		width: 97%;
+	}
+	.timeline-item:nth-child(odd) .timeline-section-circle {
+	    left: 0% !important;
+	}
+	.timeline-item:nth-child(even) .timeline-section-circle {
+	    right: 0% !important;
+	}
+	.bottom_ball{
+		margin-top: 50px;
+	}
+	/*Service Page*/
+	.hold_cardhead {
+		font-size: 36px;
+		line-height: 1.5;
+	}
+	/*Contact*/
+	.form-wrapper{
+		padding-bottom: 50px;
+	}
+	.form-container .form-wrapper .form-box{
+		width: 100%;
+	}
+	/*Footer */
+	.newsletter_head {
+		padding-top: 10px;
+	}
+	.newsletter_input {
+		padding-top: 10px;
+	}
+	.footer_link {
+		justify-content: start;
+		border-top:1px solid #fff ;
+		border-bottom: 1px solid #fff;
+	}
+	/*faq Page*/
+	.faq_img{
+		order: 2;
+		text-align: center;
+	}
+	.faq_section{
+		order: 1;
+	}
+}
+
+@media (min-width: 638px) and (max-width: 767px) {
+	/*Global Css*/
+	.section_heading h1{
+		font-size: 36px;
+	}
+	.section_heading p{
+		width: 100%;
+	}
+	.main-logo{
+		width: 20% !important;
+	}
+	/*Navigation Bar*/
+	.top-nav ul li {
+        padding: 10px 18px;
+    }
+    .top-nav ul li:first-child {
+        padding-left: 0;
+    }
+    /*Banner Section*/
+	.banner_section {
+		padding-top: 60px;
+	}
+	.banner-text h1{
+		font-size: 36px;
+		line-height: 1.5;
+	}
+	.banner-img{
+		order: 1;
+		padding-bottom: 50px;
+	} 
+	.banner-text{
+		order: 2;
+	}
+	/*Home Card Section*/
+	/*Alternative Section Home*/
+	.section_2_img{
+		order: 1;
+		text-align: center;
+	}
+	.section_2_text{
+		order: 2;
+	}
+	.rocket,.planet,.whoop{
+		display: none;
+	}
+	/*Chart Home*/
+	.pie-data{
+		padding-left: 40px;
+	}
+	/*Parallax Section Home*/
+	.parallax_section .card img{
+		width: 25%;
+	}
+	.parallax_section .card{
+		margin: 20px 0px;
+	}
+	/*About Page Text*/
+	.about_heading h3{
+        font-size: 36px;
+    }
+	.about_section h1{
+		font-size: 36px;
+	}
+	/*Service Page*/
+	.hold_cardhead {
+		font-size: 36px;
+		line-height: 1.5;
+	}
+	/*Contact*/
+	.form-wrapper{
+		padding-bottom: 50px;
+	}
+	.form-container .form-wrapper .form-box{
+		width: 100%;
+	}
+	/*Footer */
+	.newsletter_head {
+		padding-top: 10px;
+	}
+	.newsletter_input {
+		padding-top: 10px;
+	}
+	.footer_link {
+		justify-content: start;
+		border-top:1px solid #fff ;
+		border-bottom: 1px solid #fff;
+	}
+	/*Timeline css About Page*/
+	.timeline::before {
+		height: 96%;
+		top: 5%;
+	}
+	.timeline-img{
+		left: 5%;
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	.timeline .timeline-item:nth-child(2n) .timeline-content::after {
+		width: 100%;
+	}
+	.timeline-section-circle{
+		bottom: -2%;
+	}
+	.timeline .timeline-item:nth-child(2n+1) .timeline-content::after {
+		width: 100%;
+	}
+	/*faq Page*/
+	.faq_img{
+		order: 2;
+		text-align: center;
+	}
+	.faq_section{
+		order: 1;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/*Global Css*/
+	.section_heading h1{
+		font-size: 36px;
+	}
+	.section_heading p{
+		width: 100%;
+	}
+	.main-logo{
+		width: 20% !important;
+	}
+	/*Navigation Bar*/
+	.top-nav ul li {
+        padding: 10px 10px;
+    }
+    /*Banner Section*/
+    .banner_section {
+		padding-top: 60px;
+	}
+	.banner-text h1{
+		font-size: 36px;
+		line-height: 1.5;
+	}
+    .banner-text{
+    	order: 2;
+    }
+    .banner-img{
+    	order: 1;
+    	padding-bottom: 50px;
+    }
+    /*Home Card Section*/
+	/*Alternative Section Home*/
+	.section_2_img{
+		order: 1;
+		text-align: center;
+	}
+	.section_2_text{
+		order: 2;
+	}
+	.rocket,.planet,.whoop{
+		display: none;
+	}
+	/*Chart Home*/
+	.pie-data{
+		padding-left: 40px;
+	}
+	/*Parallax Section Home*/
+	.parallax_section .card img{
+		width: 25%;
+	}
+	.parallax_section .card{
+		margin: 20px 0px;
+	}
+	/*Footer*/
+	.newsletter_head {
+	    align-items: end;
+	}
+	.newsletter_input {
+		justify-content: center;
+	    padding-top: 20px;
+	}
+	/*Contact*/
+	.form-wrapper{
+		padding-bottom: 50px;
+	}
+	.form-container .form-wrapper .form-box{
+		width: 100%;
+	}
+	/*faq Page*/
+	.faq_img{
+		order: 2;
+		text-align: center;
+	}
+	.faq_section{
+		order: 1;
+	}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	/*navigation Bar*/
+	.top-nav ul li {
+        padding: 10px 10px;
+    }
+    .navbar-nav li {
+        padding: 10px 10px;
+    }
+    /*alternative Section*/
+    .rocket,.planet,.whoop{
+		display: none;
+	}
+	.pie-data {
+	    padding-left: 100px;
+	}
+	.planet{
+		right: -5% !important;
+	}
+}
