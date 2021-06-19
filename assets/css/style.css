@@ -274,9 +274,6 @@ button:focus,
   margin-left: 20px;
   cursor: pointer;
 }
-.banner-text{
-  /*padding-left: 100px;*/
-}
 /*Section 1*/
 .btm-padding{
   margin-bottom: 40px;
@@ -319,7 +316,7 @@ min-height: 180px;
   animation: image-bounce 30s infinite;
 }
 
-@-webkit-keyframes image-bounce {
+@keyframes image-bounce {
  0% {
   -webkit-transform:translate(0);
   transform:translate(0)
@@ -338,7 +335,7 @@ min-height: 180px;
   animation: rocket-bounce 30s infinite;
 }
 
-@-webkit-keyframes rocket-bounce {
+@keyframes rocket-bounce {
  0% {
   -webkit-transform:translate(0);
   transform:translate(0)

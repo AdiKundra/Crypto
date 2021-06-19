@@ -36,8 +36,17 @@
 	}
 	.watch-video{
 		margin-left: 0px;
-		margin-top: 10px;
+		margin-top: 0px;
 	}
+	.mainBtn {
+		background: #ea0009;
+		color: #fff;
+		padding: 10px 30px;
+		font-size: 16px;
+		border-radius: 25px;
+		font-weight: 600;
+	}
+	
 	/*Home Page Card*/
 	/*Alternative Section*/
 	.section_2_img{
@@ -73,6 +82,9 @@
 		padding-top:10px ;
 	} 
 	/*About Page Timeline */
+	.about_section {
+		padding: 10px;
+	}
 	.timeline-img {
 		left: 15px;
 	}
@@ -103,6 +115,12 @@
 	}
 	.bottom_ball{
 		margin-top: 50px;
+	}
+	.timeline-image-card {
+		float: none !important;
+	}
+	.timeline-image-card img{
+		height: 200px;
 	}
 	/*About Page Text*/
 	.about_heading h3{
