@@ -8,6 +8,27 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <style>
+        .bitcoin{
+              -webkit-animation: bitcoin-bounce 15s infinite;
+              animation: bitcoin-bounce 15s infinite;
+            }
+
+            @keyframes bitcoin-bounce {
+             0% {
+              -webkit-transform:translate(0);
+              transform:translate(0)
+             }
+             50% {
+              -webkit-transform:translateY(-50px);
+              transform:translateY(-50px)
+             }
+             to {
+              -webkit-transform:translate(0);
+              transform:translate(0)
+             }
+            }
+    </style>
 </head>
 <body>
 <!-- Top Navigation -->
@@ -123,7 +144,7 @@
             </div>
             <div class="row d-flex align-items-center">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 pb-lg-5 pb-md-3 faq_img">
-                    <img src="assets/img/sskkk.png" class="img-fluid img-responsive" alt="Image" />
+                    <img src="assets/img/sskkk.png" class="img-fluid img-responsive bitcoin" alt="Image" />
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 faq_section">
                     <!--Accordion wrapper-->
