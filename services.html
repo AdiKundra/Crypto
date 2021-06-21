@@ -242,51 +242,51 @@
     </section>
 
     <section class="parallax_section" style="background-image: url(./assets/img/123.png); background-size: cover; background-repeat: no-repeat;">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div class="row" style="padding:220px 0px;">
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                            <div class="card text-center">
-                              <img src="assets/img/Icon material-explore.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
-                              <div class="card-body">
-                                <h5 class="card-title"><span id="count1"></span> +</h5>
-                                <p class="card-text">Socially responsible</p>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                            <div class="card text-center">
-                              <img src="assets/img/Icon awesome-dungeon.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
-                              <div class="card-body">
-                                <h5 class="card-title"><span id="count2"></span> T +</h5>
-                                <p class="card-text">Hard cap supply </p>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                            <div class="card text-center">
-                              <img src="assets/img/Icon awesome-steam-square.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
-                              <div class="card-body">
-                                <h5 class="card-title"><span id="count3"></span> +</h5>
-                                <p class="card-text">World wide professional team</p>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                            <div class="card text-center">
-                              <img src="assets/img/Icon awesome-superpowers.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
-                              <div class="card-body">
-                                <h5 class="card-title" ><span id="count4"></span> +</h5>
-                                <p class="card-text">Countries</p>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+					<div class="row" style="padding:220px 0px;">
+						<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+							<div class="card text-center">
+							  <img src="assets/img/Icon material-explore.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
+							  <div class="card-body">
+							    <h5 class="card-title"><span id="count1" class="counter-value" data-count="12"></span> +</h5>
+							    <p class="card-text">Socially responsible</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+							<div class="card text-center">
+							  <img src="assets/img/Icon awesome-dungeon.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
+							  <div class="card-body">
+							    <h5 class="card-title"><span id="count2" class="counter-value" data-count="20"></span> T +</h5>
+							    <p class="card-text">Hard cap supply </p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+							<div class="card text-center">
+							  <img src="assets/img/Icon awesome-steam-square.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
+							  <div class="card-body">
+							    <h5 class="card-title"><span id="count3" class="counter-value" data-count="85"></span> +</h5>
+							    <p class="card-text">World wide professional team</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+							<div class="card text-center">
+							  <img src="assets/img/Icon awesome-superpowers.png" class="m-auto card-img-top img-fluid img-responsive" alt="Image"/>
+							  <div class="card-body">
+							    <h5 class="card-title" ><span id="count4" class="counter-value" data-count="150"></span> +</h5>
+							    <p class="card-text">Countries</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 <!-- ***********************people end************************************** -->
 
@@ -396,28 +396,38 @@
 		<!-- <script src="assets/js/chartsJs/dist/chart.min.js"></script>
 		 -->
          <script>
-            // Counter Js
-            document.addEventListener("DOMContentLoaded", () => {
-             function counter(id, start, end, duration) {
-              let obj = document.getElementById(id),
-               current = start,
-               range = end - start,
-               increment = end > start ? 1 : -1,
-               step = Math.abs(Math.floor(duration / range)),
-               timer = setInterval(() => {
-                current += increment;
-                obj.textContent = current;
-                if (current == end) {
-                 clearInterval(timer);
-                }
-               }, step);
-             }
-             counter("count1", 0, 12,3000);
-             counter("count2", 0, 20,3000);
-             counter("count3", 0, 85,3000);
-             counter("count4", 0, 150,3000);
-            });
-        </script>
+			var a = 0;
+			$(window).scroll(function() {
+
+			var oTop = $('.parallax_section').offset().top - window.innerHeight;
+			if (a == 0 && $(window).scrollTop() > oTop) {
+				$('.counter-value').each(function() {
+				var $this = $(this),
+					countTo = $this.attr('data-count');
+				$({
+					countNum: $this.text()
+				}).animate({
+					countNum: countTo
+					},
+
+					{
+
+					duration: 3000,
+					easing: 'swing',
+					step: function() {
+						$this.text(Math.floor(this.countNum));
+					},
+					complete: function() {
+						$this.text(this.countNum);
+					}
+
+					});
+				});
+				a = 1;
+			}
+
+			});
+		</script>
 </body>
 
 </html>
