@@ -19,90 +19,89 @@
             box-shadow: 0px 4px 4px lightgrey;
             font-family: Roboto, sans-serif;
         }
+
+        .social-button {
+            float: left;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            background: #fff;
+            overflow: hidden;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-button span {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 60px;
+            margin-left: 10px;
+        }
+
+        .social-button.instagram:hover .icon {
+            background: #e1306c;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-button.facebook:hover .icon {
+            background: #4267b2;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-button.twitter:hover .icon {
+            background: #1da1f2;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-button.linkedin:hover .icon {
+            background: #0e76a8;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-button.github:hover .icon {
+            background: #333;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-button.instagram span {
+            color: #e1306c;
+        }
+
+        .social-button.facebook span {
+            color: #4267b2;
+        }
+
+        .social-button.twitter span {
+            color: #1da1f2;
+        }
+
+        .social-button.linkedin span {
+            color: #0e76a8;
+        }
+
+        .social-button.github span {
+            color: #333;
+        }
+
+        .social-button .icon {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            border-radius: 50px;
+            display: inline-block;
+        }
+
+        .social-button .icon i {
+            font-size: 25px;
+            line-height: 60px;
+        }
+
+        .social-button:hover i {
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
     </style>
-    <style>
-    .social-button {
-        float: left;
-        width: 60px;
-        height: 60px;
-        cursor: pointer;
-        background: #fff;
-        overflow: hidden;
-        border-radius: 50px;
-        transition: all 0.3s ease-in-out;
-    }
 
-    .social-button span {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 60px;
-        margin-left: 10px;
-    }
-
-    .social-button.instagram:hover .icon {
-        background: #e1306c;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .social-button.facebook:hover .icon {
-        background: #4267b2;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .social-button.twitter:hover .icon {
-        background: #1da1f2;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .social-button.linkedin:hover .icon {
-        background: #0e76a8;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .social-button.github:hover .icon {
-        background: #333;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .social-button.instagram span {
-        color: #e1306c;
-    }
-
-    .social-button.facebook span {
-        color: #4267b2;
-    }
-
-    .social-button.twitter span {
-        color: #1da1f2;
-    }
-
-    .social-button.linkedin span {
-        color: #0e76a8;
-    }
-
-    .social-button.github span {
-        color: #333;
-    }
-
-    .social-button .icon {
-        width: 60px;
-        height: 60px;
-        text-align: center;
-        border-radius: 50px;
-        display: inline-block;
-    }
-
-    .social-button .icon i {
-        font-size: 25px;
-        line-height: 60px;
-    }
-
-    .social-button:hover i {
-        color: #fff;
-        transition: all 0.3s ease-in-out;
-    }
-
-</style>
 </head>
 <body>
     <div id="particles-js"></div>
@@ -157,13 +156,13 @@
           <div class="row">
               <nav class="navbar navbar-expand-lg navbar-light p-2">
                   <div class="container-fluid p-0">
-                  <a class="navbar-brand main-logo" href="#" style="width: 8%;">
+                  <a class="navbar-brand main-logo pb-2" href="#" style="width: 8%;">
                       <img src="assets/img/logo.png" alt="LOGO" >
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-lg-0 m-auto">
                       <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
@@ -213,7 +212,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="form-wrapper">
                         <div class="form-box">
-                            <h2 class="py-3">Get In Touch</h2>
+                            <h2 class="py-3 mb-3">Get In Touch</h2>
                             <form>
                                 <div class="mb-3">
                                     <input type="text" class="form-control" id="exampleInputEmail1"
@@ -343,8 +342,8 @@
         <div class="container" >
             <div class="row footer_padding">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                    <h1 style="font-size:20px;font-weight:501;">Our Goal</h1>
-                    <p class="footer_text">
+                    <h1 style="font-size:20px;font-weight:501;" class="mb-3">Our Goal</h1>
+                    <p class="footer_text mb-4">
                         We are working to provide economic freedom for everyone in the solar system. We will achieve this goal by providing everyone with their very own spaceship to explore the planetary system. 
                     </p>
                     <h5 class="pb-2"> <i class="fas fa-map-marker-alt"></i> 3895 Sycamore Road Arlington, 97812</h5>
@@ -371,7 +370,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-3 footer_social">
+                <!-- <div class="col-12 col-sm-12 col-md-4 col-lg-3 footer_social">
                     <ul class="list-inline">
                          <li class="">
                             <a href="#" target="_blank">
@@ -405,7 +404,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container-fluid pt-3 pb-3" style="border-top: 1px solid #707070;">
