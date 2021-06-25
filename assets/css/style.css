@@ -146,6 +146,7 @@ button:focus,
   font-size: 16px;
   border-radius: 25px;
   font-weight: 600;
+  transition: all 0.3s ease-in-out;
 }
 .abt_btn:hover{
   color: #fff;
@@ -292,8 +293,8 @@ button:focus,
 .section_1 .card img{
   width: 25%;
 }
-.card-img{
-  height: 150px;
+.section_1 .card .card-img{
+  min-height: 180px;
   display: inline-grid;
   vertical-align: middle;
 }
@@ -302,8 +303,8 @@ button:focus,
   font-weight: 600;
 }
 .section_1 .card .card-text{
-padding: 0px 15px;
-min-height: 140px;
+  padding: 0px 15px;
+  min-height: 140px;
 }
 .section_1 .card .card-body a{
   font-size: 16px;
@@ -412,6 +413,9 @@ min-height: 140px;
 .parallax_section .card{
   background:transparent;
   border:0px;
+}
+.parallax-padding{
+  padding: 220px 0px;
 }
 .parallax_section .card img{
   width:40%;
@@ -875,7 +879,7 @@ line-height: 1.3;
 .faq_section .card-header a h5{
   color: #000000 ;
   font-weight: 600 ;
-  padding: 15px 0px 5px 0px;
+  padding: 15px 0px 15px 0px;
   display: flex;
   justify-content: space-between;
 }

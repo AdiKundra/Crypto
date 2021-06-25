@@ -31,9 +31,7 @@
 	.banner-text{
 		order: 2;
 	}
-	.banner-btn{
-		text-align: center;
-	}
+
 	.watch-video{
 		margin-left: 0px;
 		margin-top: 0px;
@@ -51,9 +49,10 @@
 	/*Alternative Section*/
 	.section_2_img{
 		order: 1;
+		text-align: center;
 	}
 	.section_2_img .image{
-		height: 400px;
+		height: 350px;
 	}
 	.section_2_text{
 		order: 2;
@@ -63,7 +62,7 @@
 	}
 	/*Home Chart Section*/
 	.pie-data {
-	    padding-left: 40px;
+	    padding:40px 0px 0px 40px ;
 	}
 	/*Home Parallax Section*/
 	.parallax_section .card img{
@@ -72,10 +71,15 @@
 	.parallax_section .card{
 		margin: 20px 0px;
 	}
+	.parallax-padding{
+		padding: 80px 0px;
+	}
 	/*Footer*/
+	.footer_padding{
+		padding-bottom: 0px;
+	}
 	.footer_link{
 		border-top: 1px solid #fff;
-		border-bottom: 1px solid #fff;
 		justify-content: start;
 	} 
 	.newsletter_head{
@@ -143,6 +147,7 @@
 	}
 	.form-container .form-wrapper .form-box{
 		width: 100%;
+		padding: 1.5rem 1rem;
 	}
 	/*faq Page*/
 	.faq_img{
@@ -188,9 +193,7 @@
 	.banner-text{
 		order: 2;
 	}
-	.banner-btn{
-		text-align: center;
-	} 
+
 	/*Home Card Section*/
 	/*Alternative Section Home*/
 	.section_2_img{
@@ -279,7 +282,6 @@
 	.footer_link {
 		justify-content: start;
 		border-top:1px solid #fff ;
-		border-bottom: 1px solid #fff;
 	}
 	/*faq Page*/
 	.faq_img{
@@ -379,7 +381,6 @@
 	.footer_link {
 		justify-content: start;
 		border-top:1px solid #fff ;
-		border-bottom: 1px solid #fff;
 	}
 	/*Timeline css About Page*/
 	.timeline::before {
@@ -463,6 +464,9 @@
 		padding-left: 40px;
 	}
 	/*Parallax Section Home*/
+	.parallax-padding{ 
+		padding: 100px 0px;
+	}
 	.parallax_section .card img{
 		width: 25%;
 	}
